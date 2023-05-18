@@ -1,0 +1,49 @@
+.body{
+    background-color: lightgoldenrodyellow;
+    border: cyan;
+}
+
+.halo{
+    font-family: calibri;
+}
+
+.nav{
+    border: 5px lightgoldenrodyellow solid ;
+    border-bottom: lightgray;
+    border-right: darkslategrey;
+    border-top:  darkslategrey;
+    text-align: right;
+    font-family: calibri;
+    padding-right: 5%;
+    color: antiquewhite;
+}
+
+.isi{
+    color: black;
+    tab-size: 5;
+    font-family: calibri;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-right: 25px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+.ks{
+    width: 300px;
+    height: fit-content;
+    text-align: right;
+    border-right: 5px outset grey;
+    border-bottom: 5px outset grey;
+    border-left: 5px double darkgrey;
+    border-radius: 10px;
+    padding-right: 1%;
+}
+
+.footer{
+  background-color: rgb(111, 71, 71);
+  color: whitesmoke;
+  text-align: center;
+  font-family: calibri;
+  font-size: 20px;
+}

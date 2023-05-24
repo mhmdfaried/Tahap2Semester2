@@ -75,7 +75,15 @@ nav ul li a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 900px;
+  width: 1902px;
+  background-image: linear-gradient(
+      rgba(169, 151, 137, 0.6),
+      rgba(215, 214, 219, 0.33)
+    ),
+    url("img/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #selamatdatang {
@@ -86,13 +94,12 @@ nav ul li a:active {
   font-weight: 200px;
   letter-spacing: 2px;
   font-weight: bold;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+  text-shadow: -1px -1px 0 white, 2px -1px 0 white, -1px 1px 0 white,
     1px 1px 0 white;
 }
 
 .img1 {
-  margin: auto;
-  margin-left: 270px;
+  margin-left: 275px;
   margin-bottom: 40px;
 }
 
@@ -101,6 +108,7 @@ nav ul li a:active {
   font-family: "Poppins";
   margin: -20px auto 0;
   padding-top: 30px;
+  padding-bottom: 300px;
   text-align: center;
   font-size: 21px;
 }
@@ -184,9 +192,11 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: aliceblue;
 }
 
-#ks {
+#ks,
+#if {
   font-family: "MysticGate";
   color: #2c3e50;
   font-size: 45px;
@@ -233,6 +243,45 @@ iframe {
 }
 
 .deskripsi3 ul li a:hover {
+  color: #2c3e50;
+  font-family: "Poppins";
+}
+
+.isi5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 150px;
+}
+
+.deskripsi4 {
+  list-style-type: none;
+  color: aliceblue;
+  font-family: "Poppins";
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.deskripsi4 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.deskripsi4 ul li a {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.deskripsi4 ul li a:hover {
   color: #2c3e50;
   font-family: "Poppins";
 }
